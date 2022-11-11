@@ -1,0 +1,37 @@
+<html> 
+    <head> 
+        <title> Exercise 3: Web Store</title>
+        <script type="text/javascript" src="formChecker.js">
+        </script>
+        <link href="style.css"
+        rel="stylesheet"
+        type="text/css"/>
+    </head> 
+<body> 
+    <form name="myOrder" form action="customerBackend.php" onsubmit="return validateForm()" method="post"> 
+          Username: <input type="text" name="username"><br> 
+          Password: <input type="text" name="password"><br> 
+         How many televisions would you like to order at $10: <input type="number" name="televisions"><br> 
+         How many Jayhawks would you like to order at $5: <input type="number" name="jayhawks"><br> 
+         How many keyboards would you like to order at $1: <input type="number" name="keyboards"><br> 
+         <h3>Shipping Options</h3>
+                    
+                    <div>
+                        <input type="radio" name="question-1-answers" id="question-1-answers-A" value="Free 7 day" />
+                        <label for="question-1-answers-A">A) Free 7 day</label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-1-answers" id="question-1-answers-B" value="$50.00 over night" />
+                        <label for="question-1-answers-B">B) $50.00 over night</label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-1-answers" id="question-1-answers-C" value="$5.00 three day" />
+                        <label for="question-1-answers-C">C) $5.00 three day</label>
+                    </div>
+        <input type="submit" value="Submit"> 
+        <input type="reset" value="Reset"> 
+    </form> 
+</body> 
+</html> 

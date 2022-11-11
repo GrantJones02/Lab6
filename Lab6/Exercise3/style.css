@@ -1,0 +1,22 @@
+div
+{
+ background-color: grey; color: white;
+ font-family: arial font-size: 22pt;
+}
+
+h3
+{
+ background-color: blue; color: white;
+ font-family: arial font-size: 22pt;
+}
+
+body
+{
+ background-image: url(4); background-size: 100%;
+ background-repeat: no-repeat; background-attachment: fixed;
+}
+
+php{
+background-color: blue; color: white;
+}
+

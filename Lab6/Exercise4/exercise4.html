@@ -1,0 +1,55 @@
+<html>
+     <head>
+     <link href="exercise4.css"
+        rel="stylesheet"
+        type="text/css"/>
+        <title> Exercise 4: Publication </title>
+        <h1>EECS 448 Lab 6</h1>
+     </head>
+     <body>
+        <p class="links"> Exercise Links: </p>
+        <a href="https://people.eecs.ku.edu/~g641j712/Lab6/Exercise1/exercise1.html"> Exercise1 </a>
+        <br></br>
+        <a href="https://people.eecs.ku.edu/~g641j712/Lab6/Exercise2/quiz.html"> Exercise2 </a>
+        <br></br>
+        <a href="https://people.eecs.ku.edu/~g641j712/Lab6/Exercise3/customerFrontend.html"> Exercise3 </a>
+        <br></br>
+        
+        <p class = "minigame"> The Best Mascots</p>
+        
+        <label for="image1">1:</label>
+        <img src="1" id="image1" width="300" height="200">
+        <label for="image2">2:</label>
+        <img src="2" id="image2" width="300" height="200">
+        <label for="image3">3:</label>
+        <img src="3" id="image3" width="300" height="200">
+        <label for="image4">4:</label>
+        <img src="4" id="image4" width="300" height="200">
+        <label for="image5">5:</label>
+        <img src="5" id="image5" width="300" height="200">
+        
+        <p class = "prompt"> These are the best mascots. Which one is your favorite?</p>
+        <label for="fav">My favorite is:</label>
+        <input type="text" id="fav" name="fav">
+        
+        <button type="button" onclick="submit()">Submit</button>
+        <script>
+            function submit(){
+                var fav = document.getElementById("fav");
+                if(fav.value == 1){
+                    alert("Amazing choice!");
+                }else if(fav.value == 2){
+                    alert("Did you misread the prompt?");
+                }else if(fav.value == 3){
+                    alert("Are you sure?");
+                }else if(fav.value == 4){
+                    alert("Correct answer");
+                }else if(fav.value == 5){
+                    alert("You from St. Louis or something?");
+                }else{
+                    alert("Try again");
+                }
+            }
+        </script>
+     </body>
+</html>

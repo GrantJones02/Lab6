@@ -1,0 +1,27 @@
+p.minigame
+{
+ background-color: green; color: white;
+ font-family: arial font-size: 22pt;
+}
+
+p.links
+{
+ background-color: red; color: white;
+ font-family: arial font-size: 22pt;
+}
+
+body
+{
+}
+
+a
+{
+ background-color: green;
+ color: red;
+}
+
+a:hover
+{
+ background-color: red;
+ color: green;
+}
